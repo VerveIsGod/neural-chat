@@ -8,7 +8,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 AUTHOR = "Verve"
-VERSION = "0.0.2"
+VERSION = "0.0.5"
 DESCRIPTION = "Simple interface for neural chatbots."
 
 setup(
@@ -19,12 +19,13 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
+    utl="https://github.com/VerveIsGod/neural-chat",
     packages=find_packages(),
     install_requires=["numpy", "nltk", "tensorflow", "gtts", "pyttsx3"],
     keywords=["python", "neural", "machine learning", "chatbots",
               "chat", "artificial intelligence", "virtual assistant", "voice"],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
