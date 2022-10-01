@@ -19,7 +19,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
-    utl="https://github.com/VerveIsGod/neural-chat",
+    url="https://github.com/VerveIsGod/neural-chat",
     packages=find_packages(),
     install_requires=["numpy", "nltk", "tensorflow", "gtts", "pyttsx3"],
     keywords=["python", "neural", "machine learning", "chatbots",
